@@ -47,4 +47,18 @@ var projects = [
     document.getElementById(domId).innerHTML += domString;
   }
 
-  function createProjectCards() {}
+//   <article>
+//             <img src='https://static.pexels.com/photos/162140/duckling-birds-yellow-fluffy-162140.jpeg' alt='duckling'>
+//             <h2>duckling project</h2>
+//             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt ullam dolor nisi veritatis, cupiditate iure omnis accusantium eveniet neque fuga. Quasi optio neque corporis cum deserunt consequatur beatae excepturi rerum?</p>
+//             <a href='https://github.com/DrakeMorrison/DrakeMorrison.github.io'>See it in GitHub</a>
+//         </article>
+function createProjectCards(array) {
+    var domString = '';
+    array.forEach(function(e) {
+        domString += '<article><img src="' + e.imageUrl + '"><h2>' + e.title + '</h2><p>' + e.description + '</p><a href="' + e.githubUrl + '">See it in Github</a></article>';
+    });
+    writeToDom(domString, 'projects');
+}
+
+  createProjectCards(projects);
