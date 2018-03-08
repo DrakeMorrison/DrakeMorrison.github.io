@@ -18,3 +18,8 @@ var blogs = [
         post: "This week was fun. We learned about using GitHub projects to organize a project and break it down into manageable chunks that each team member can code. We got to practice at our weekly study group. We had homework on Functions and Objects that seemed a lot easier than the previous homework so far. It's really cool to see how I can code more complex projects as my skills improve. That's all for now."
     },
   ];
+
+  function writeToDom(domString, domId) {
+      document.getElementById(domId).innerHTML = domString;
+  }
+  
