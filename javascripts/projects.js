@@ -58,7 +58,7 @@ function createProjectCards(array) {
     array.forEach(function(e) {
         domString += '<article><img src="' + e.imageUrl + '"><h2>' + e.title + '</h2><p>' + e.description + '</p><a href="' + e.githubUrl + '">See it in Github</a></article>';
     });
-    writeToDom(domString, 'projects');
+    writeToDom(domString, 'my-projects');
 }
 
   createProjectCards(projects);
