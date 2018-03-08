@@ -43,6 +43,8 @@ var projects = [
     }
   ];
 
-  function writeToDom() {}
+  function writeToDom(domString, domId) {
+    document.getElementById(domId).innerHTML += domString;
+  }
 
   function createProjectCards() {}
