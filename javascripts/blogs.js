@@ -22,4 +22,13 @@ var blogs = [
   function writeToDom(domString, domId) {
       document.getElementById(domId).innerHTML = domString;
   }
-  
+
+  function createBlogPosts(array) {
+      var domString = '';
+      array.forEach(function(e) {
+          domString += '<article><h2>' + e.title + '</h2><em>' + e.date + '</em><p>' + e.post + '</p></article>';
+      });
+      writeToDom(domString, 'my-blogs');
+  }
+
+  createBlogPosts(blogs);
