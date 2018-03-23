@@ -17,6 +17,12 @@ var blogs = [
         date: "03/08/2018",
         post: "This week was fun. We learned about using GitHub projects to organize a project and break it down into manageable chunks that each team member can code. We got to practice at our weekly study group. We had homework on Functions and Objects that seemed a lot easier than the previous homework so far. It's really cool to see how I can code more complex projects as my skills improve. That's all for now."
     },
+    {
+        id:"blog4",
+        title: "Week 5: Event Listeners",
+        date: "03/22/2018",
+        post: "I learned a lot this week. For our group project this week we had to use JS event listeners which we hadn't talked about as a class. It worked out relatively smoothly and I even managed to get vanilla JS modals working on our group project! I learned how to use object constructor functions to help me figure out a solution to this weeks homework. The other major sticking point was learning event delegation and bubbling. After I understood those concepts I was able to implement them and solve some problems in my homework. Overall I feel good about this week."
+    }
   ];
 
   function writeToDom(domString, domId) {
@@ -25,7 +31,7 @@ var blogs = [
 
   function createBlogPosts(array) {
       var domString = '';
-      array.forEach(function(e) {
+      array.forEach((e) => {
           domString += '<article><h2>' + e.title + '</h2><em>' + e.date + '</em><p>' + e.post + '</p></article>';
       });
       writeToDom(domString, 'my-blogs');
