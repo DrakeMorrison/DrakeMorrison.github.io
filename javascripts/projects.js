@@ -1,4 +1,4 @@
-var projects = [
+const projects = [
     {
         id: "project1", 
         title: "Duckling Project", 
@@ -43,7 +43,7 @@ var projects = [
     }
   ];
 
-  function writeToDom(domString, domId) {
+  const writeToDom = (domString, domId) => {
     document.getElementById(domId).innerHTML += domString;
   }
 
@@ -53,10 +53,15 @@ var projects = [
 //             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt ullam dolor nisi veritatis, cupiditate iure omnis accusantium eveniet neque fuga. Quasi optio neque corporis cum deserunt consequatur beatae excepturi rerum?</p>
 //             <a href='https://github.com/DrakeMorrison/DrakeMorrison.github.io'>See it in GitHub</a>
 //         </article>
-function createProjectCards(array) {
-    var domString = '';
-    array.forEach(function(e) {
-        domString += '<article><img src="' + e.imageUrl + '"><h2>' + e.title + '</h2><p>' + e.description + '</p><a href="' + e.githubUrl + '">See it in Github</a></article>';
+const createProjectCards = (array) => {
+    let domString = '';
+    array.forEach((e) => {
+        domString += '<article>';
+        domString +=    `<img src="${e.imageUrl}">`;
+        domString +=    `<h2>${e.title}</h2>`;
+        domString +=    `<p>${e.description}</p>`;
+        domString +=    `<a href="${e.githubUrl}">See it in Github</a>`;
+        domString += `</article>`;
     });
     writeToDom(domString, 'my-projects');
 }
