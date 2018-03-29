@@ -1,4 +1,4 @@
-var blogs = [
+const blogs = [
     {
         id: "blog1", 
         title: "The Journey Begins", 
@@ -25,14 +25,18 @@ var blogs = [
     }
   ];
 
-  function writeToDom(domString, domId) {
+  const writeToDom = (domString, domId) => {
       document.getElementById(domId).innerHTML = domString;
   }
 
-  function createBlogPosts(array) {
-      var domString = '';
+  const createBlogPosts = (array) => {
+      let domString = '';
       array.forEach((e) => {
-          domString += '<article><h2>' + e.title + '</h2><em>' + e.date + '</em><p>' + e.post + '</p></article>';
+          domString += '<article>';
+          domString +=      `<h2>${e.title}</h2>`;
+          domString +=      `<em>${e.date}</em>`;
+          domString +=      `<p>${e.post}</p>`;
+          domString += `</article>`;
       });
       writeToDom(domString, 'my-blogs');
   }
