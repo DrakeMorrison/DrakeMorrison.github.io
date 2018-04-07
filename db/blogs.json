@@ -29,6 +29,12 @@
             "title": "Week 6: XHR and ES6",
             "date": "03/29/2018",
             "post": "Well, this week was good. I learned the vanilla JS way of doing XHR's and I like it a lot. Also, ES6 is pretty nice so far, but I haven't worried about those IE7 users. The group project this week is going to be fun. I can't wait to get started."
+        },
+        {
+            "id":"blog6",
+            "title": "Week 7: BootStrap",
+            "date": "04/07/2018",
+            "post": "Yes! I get to use Bootstrap finally. I am very excited to learn the innerworkings of bootstrap. I wish we could use Bootstrap 4, but for now 3.7 will suffice. The exercises have been going well up until this last one. We needed to figure out how to get both data sets from two different XHR request into one function. It took a while to figure out what was going on, but I managed to solve it with the help of the team. Can't wait for the challenges of next week."
         }
       ]
 }
