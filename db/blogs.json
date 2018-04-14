@@ -35,6 +35,12 @@
             "title": "Week 7: BootStrap",
             "date": "04/07/2018",
             "post": "Yes! I get to use Bootstrap finally. I am very excited to learn the innerworkings of bootstrap. I wish we could use Bootstrap 4, but for now 3.7 will suffice. The exercises have been going well up until this last one. We needed to figure out how to get both data sets from two different XHR request into one function. It took a while to figure out what was going on, but I managed to solve it with the help of the team. Can't wait for the challenges of next week."
+        },
+        {
+          "id":"blog7",
+          "title": "Week 8: Browserify and Grunt",
+          "date": "04/14/2018",
+          "post": "This week began, like many other weeks, by learning about some new technology I would love. This week we talked about Task Runners, specifically, Grunt. It took me a while to get used to it, but now that I am I like it a lot. It is a great way of organizing your JS files and keeping everything in seperate places. Using Grunt to run browserify and ESLint is great. I was already trying to use most of the rules in the eslint file, so I had an easier transition than others. This week I also volunteered for the 2018 Hack For The Community. That was very interesting. It was an impromptu team building code for a non-profit in the area without team guidelines and the like. Having just gotten the hang of Browserify and already appreciating the usefulness of Git in team settings, I was surprised when none of those were ever brought up. We ended up running into issues in the end when we tried to save all our files to the production codebase. Overall: Git and Browserify are Amazing!"
         }
       ]
 }
