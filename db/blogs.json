@@ -1,46 +1,64 @@
 {
     "blogs": [
         {
-            "id": "blog1", 
-            "title": "The Journey Begins", 
-            "date": "02/22/2018", 
+            "id": "blog1",
+            "title": "The Journey Begins",
+            "date": "02/22/2018",
             "post": "Starting this course I thought I had a basic knowledge of HTML and CSS, and to a point, I did. However the picture I had was incomplete; it was missing crucial pieces of design and syntax to the languages that I had never heard of before. I learned right from the get-go that coding was a team sport, and it was much more fun that way. Having a team forces one to organize their code so that it becomes easily readable to your teammates, and in the process, it becomes more readable to yourself as well. Semantic markup was a great tool for accomplishing this in HTML. The ability to replace a bunch of div's and comments into a single article, section, or aside tag immensely cleans up code. However in CSS I am still using comments to organize sections of styling. I have recently learned about CSS variables, but I don't have enough practice with them to tell if they really help this problem the same way Semantic Markup helps HTML code. GIT: What is it? What does it do? Why bother? The answers to all these questions and more I encountered this week at NSS. I am learning to love git for it's ability to organize code into commits and branches. I love being able to work without fear of breaking something and ruining my site. In the same vein, learning the Command Line has been a very useful tool. It feels great to type in a single command to complete several tasks at once. Overall, I have learned more than I thought I would in the first couple of weeks here at NSS, and I can barely wait to learn more!"
         },
         {
             "id": "blog2",
-            "title": "Week 3:Basic JavaScript",
+            "title": "Week 4:Basic JavaScript",
             "date": "03/01/2018",
             "post": "I am super excited to start learning JavaScript. After doing the Treehouse course and especially 'A Smarter Way to Learn JavaScript' by Mark Myers, I was well prepared for the coursework this week. We went over basic data types and array methods. It was fun; can't wait for more!"
         },
         {
             "id": "blog3",
-            "title": "Week 4:Advanced JS and Git for Teams",
+            "title": "Week 5:Advanced JS and Git for Teams",
             "date": "03/08/2018",
             "post": "This week was fun. We learned about using GitHub projects to organize a project and break it down into manageable chunks that each team member can code. We got to practice at our weekly study group. We had homework on Functions and Objects that seemed a lot easier than the previous homework so far. It's really cool to see how I can code more complex projects as my skills improve. That's all for now."
         },
         {
             "id":"blog4",
-            "title": "Week 5: Event Listeners",
+            "title": "Week 6: Event Listeners",
             "date": "03/22/2018",
             "post": "I learned a lot this week. For our group project this week we had to use JS event listeners which we hadn't talked about as a class. It worked out relatively smoothly and I even managed to get vanilla JS modals working on our group project! I learned how to use object constructor functions to help me figure out a solution to this weeks homework. The other major sticking point was learning event delegation and bubbling. After I understood those concepts I was able to implement them and solve some problems in my homework. Overall I feel good about this week."
         },
         {
             "id":"blog5",
-            "title": "Week 6: XHR and ES6",
+            "title": "Week 7: XHR and ES6",
             "date": "03/29/2018",
             "post": "Well, this week was good. I learned the vanilla JS way of doing XHR's and I like it a lot. Also, ES6 is pretty nice so far, but I haven't worried about those IE7 users. The group project this week is going to be fun. I can't wait to get started."
         },
         {
             "id":"blog6",
-            "title": "Week 7: BootStrap",
+            "title": "Week 8: BootStrap",
             "date": "04/07/2018",
             "post": "Yes! I get to use Bootstrap finally. I am very excited to learn the innerworkings of bootstrap. I wish we could use Bootstrap 4, but for now 3.7 will suffice. The exercises have been going well up until this last one. We needed to figure out how to get both data sets from two different XHR request into one function. It took a while to figure out what was going on, but I managed to solve it with the help of the team. Can't wait for the challenges of next week."
         },
         {
           "id":"blog7",
-          "title": "Week 8: Browserify and Grunt",
+          "title": "Week 9: Browserify and Grunt",
           "date": "04/14/2018",
           "post": "This week began, like many other weeks, by learning about some new technology I would love. This week we talked about Task Runners, specifically, Grunt. It took me a while to get used to it, but now that I am I like it a lot. It is a great way of organizing your JS files and keeping everything in seperate places. Using Grunt to run browserify and ESLint is great. I was already trying to use most of the rules in the eslint file, so I had an easier transition than others. This week I also volunteered for the 2018 Hack For The Community. That was very interesting. It was an impromptu team building code for a non-profit in the area without team guidelines and the like. Having just gotten the hang of Browserify and already appreciating the usefulness of Git in team settings, I was surprised when none of those were ever brought up. We ended up running into issues in the end when we tried to save all our files to the production codebase. Overall: Git and Browserify are Amazing!"
+        },
+        {
+          "id":"blog8",
+          "title": "Week 10: Browserify 2",
+          "date": "04/14/2018",
+          "post": "This week we spent more time working with Browserify and Grunt. We created a couple of simple web apps with gradually increasing levels of complexity. Overall, I felt like I did great and was able to help some teammates out a bit. Browserify is great, I am liking it a lot."
+        },
+        {
+          "id":"blog9",
+          "title": "Week 11: Chatty Group Project",
+          "date": "04/14/2018",
+          "post": "Ah, another group project. For this project the class was split into teams divided by skill level. I had a lot of fun with my new group this week. When we were planning our app we had a hard time figuring out where to start. However, once we did, we planned extensively. The coding part was much smoother because of the detail in our planning. Of course, we ran into a few problems. One of which was getting the navbar to display the way we wanted it to. The other was a 2 hour dive into regular expressions. I learned a lot with this team and I hope we can do another project together. Our team leader, Michael, had to leave after the second day. So there were 3 of us who did most of the coding. Despite that, Michael added a lot to the project in planning and in code. I had a great week and am hungry for more."
+        },
+        {
+          "id":"blog10",
+          "title": "Week 12: jQuery",
+          "date": "04/14/2018",
+          "post": "Yes!, I am so glad we are allowed to use jQuery now. It makes things much faster to code and manipulate DOM elements. I learned useful jQuery methods and where to look for more. I am very happy to have this tool in my belt now. Overall, the exercises were a bit faster to code. But I still had to work through problems to get everything working as usual. I hear we start FireBase soon. I can't wait. Also, we get our first break next week. I will probably ask Zoe for some extra work to do."
         }
       ]
 }
