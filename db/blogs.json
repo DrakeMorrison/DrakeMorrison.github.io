@@ -45,20 +45,32 @@
         {
           "id":"blog8",
           "title": "Week 10: Browserify 2",
-          "date": "04/14/2018",
+          "date": "04/21/2018",
           "post": "This week we spent more time working with Browserify and Grunt. We created a couple of simple web apps with gradually increasing levels of complexity. Overall, I felt like I did great and was able to help some teammates out a bit. Browserify is great, I am liking it a lot."
         },
         {
           "id":"blog9",
           "title": "Week 11: Chatty Group Project",
-          "date": "04/14/2018",
+          "date": "04/28/2018",
           "post": "Ah, another group project. For this project the class was split into teams divided by skill level. I had a lot of fun with my new group this week. When we were planning our app we had a hard time figuring out where to start. However, once we did, we planned extensively. The coding part was much smoother because of the detail in our planning. Of course, we ran into a few problems. One of which was getting the navbar to display the way we wanted it to. The other was a 2 hour dive into regular expressions. I learned a lot with this team and I hope we can do another project together. Our team leader, Michael, had to leave after the second day. So there were 3 of us who did most of the coding. Despite that, Michael added a lot to the project in planning and in code. I had a great week and am hungry for more."
         },
         {
           "id":"blog10",
           "title": "Week 12: jQuery",
-          "date": "04/14/2018",
+          "date": "05/12/2018",
           "post": "Yes!, I am so glad we are allowed to use jQuery now. It makes things much faster to code and manipulate DOM elements. I learned useful jQuery methods and where to look for more. I am very happy to have this tool in my belt now. Overall, the exercises were a bit faster to code. But I still had to work through problems to get everything working as usual. I hear we start FireBase soon. I can't wait. Also, we get our first break next week. I will probably ask Zoe for some extra work to do."
+        },
+        {
+          "id":"blog11",
+          "title": "Week 13: Promises",
+          "date": "05/19/2018",
+          "post": "This week I learned a new way to write asynchronous code using promises. I like them a lot. They solve a lot of the difficulty when using standard callback functions for asynchronous data. It took a little while and some practice to understand them. I am feeling confident using them now, but there is more to learn about their methods and intricacies. Overall I had a fun week; glad to be back in class."
+        },
+        {
+          "id":"blog12",
+          "title": "Week 14: Starting to use API's",
+          "date": "05/25/2018",
+          "post": "This week I had a lot of fun workin gwith API's and gettin glots of fun data to mess around with. I like seeing all the data you can get from API's. Making sure your key is not pushed up to GitHub is a concern that I will forever think about after hearing some of their stories when they didn't. We switched teams again this week. This time we are grouped by personality type. It was interesting to see a bunch of introverts working together. Anyway, I had a fun week overall, looking forward to Firebase."
         }
       ]
 }
