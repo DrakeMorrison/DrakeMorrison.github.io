@@ -71,6 +71,12 @@
           "title": "Week 14: Starting to use API's",
           "date": "05/25/2018",
           "post": "This week I had a lot of fun workin gwith API's and gettin glots of fun data to mess around with. I like seeing all the data you can get from API's. Making sure your key is not pushed up to GitHub is a concern that I will forever think about after hearing some of their stories when they didn't. We switched teams again this week. This time we are grouped by personality type. It was interesting to see a bunch of introverts working together. Anyway, I had a fun week overall, looking forward to Firebase."
+        },
+        {
+          "id":"blog13",
+          "title": "Week 15: Firebase",
+          "date": "06/01/2018",
+          "post": "Persistent Data! Yay! I really liked using firebase this week. It is a service offered by google that, among other things, will work as a simple database for our projects. It was relatively fun and easy to setup, and when you sync it up with your application and get all the promises working, It is really cool. I can't wait to use it more. "
         }
       ]
 }
