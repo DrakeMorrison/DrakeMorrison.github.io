@@ -1,4 +1,7 @@
+'use strict';
+
 const writeToDom = (domString, domId) => {
+  $(`#${domId}`).html(domString);
     document.getElementById(domId).innerHTML = domString;
 }
 

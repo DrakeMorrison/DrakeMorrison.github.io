@@ -1,3 +1,5 @@
+'use strict';
+
 const writeToDom = (domString, domId) => {
     document.getElementById(domId).innerHTML += domString;
   }
