@@ -13,8 +13,7 @@ function createProjectCards (inputArray) {
   writeToDom(domString, '#my-projects');
 }
 
-function createBlogPosts () {
-  const data = JSON.parse(this.responseText).blogs;
+function createBlogPosts (data) {
   let domString = '';
   data.forEach((e) => {
     domString += '<article>';
