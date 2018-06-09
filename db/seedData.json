@@ -92,7 +92,7 @@
       "description": "This is a web app that allows you to search for movies you want to watch and save it to a wishlist that is saved for your user.",
       "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, Version Control with Github",
       "available": true,
-      "url": "https://XXX.firebaseapp.com",
+      "url": "https://movie-history-99711.firebaseapp.com",
       "github": "https://github.com/DrakeMorrison/movie-history"
     },
     {
@@ -101,7 +101,7 @@
       "description": "This is a simple weather app that allows a user to save forecasts and indicate their scariness.",
       "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, Version Control with Github",
       "available": true,
-      "url": "https://XXX.firebaseapp.com",
+      "url": "https://simple-weather-app-11afe.firebaseapp.com/",
       "github": "https://github.com/DrakeMorrison/local-weather"
     },
     {
@@ -110,7 +110,7 @@
       "description": "This is a product and technical description for the project",
       "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
       "available": true,
-      "url": "https://XXX.firebaseapp.com",
+      "url": "https://drake-morrison.firebaseapp.com",
       "github": "https://github.com/DrakeMorrison/exTracker"
     }
   ]
