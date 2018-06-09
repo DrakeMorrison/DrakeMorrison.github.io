@@ -15,8 +15,8 @@ function getAPIKey () {
 
 function retrieveAPIKey () {
   getAPIKey().then(function (results) {
-    setConfig(results.apiKeys[1].firebase);
-    firebase.initializeApp(results.apiKeys[1].firebase);
+    setConfig(results.firebase.apiKeys);
+    firebase.initializeApp(results.firebase.apiKeys);
   }).catch(console.error.bind(console));
 }
 
