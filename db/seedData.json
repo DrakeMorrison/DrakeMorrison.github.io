@@ -88,7 +88,7 @@
   "projects": [
     {
       "title": "Movie History",
-      "thumbnail": "https://XXX.jpg",
+      "thumbnail": "https://github.com/DrakeMorrison/movie-history/raw/master/screenshots/mh-movies.png",
       "description": "This is a web app that allows you to search for movies you want to watch and save it to a wishlist that is saved for your user.",
       "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, Version Control with Github",
       "available": true,
