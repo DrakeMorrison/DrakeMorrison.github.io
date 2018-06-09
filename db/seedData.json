@@ -87,46 +87,31 @@
   ],
   "projects": [
     {
-        "id": "project1",
-        "title": "Duckling Project",
-        "imageUrl": "https://static.pexels.com/photos/162140/duckling-birds-yellow-fluffy-162140.jpeg",
-        "description": "project on ducks",
-        "githubUrl": "https://github.com/DrakeMorrison/DrakeMorrison.github.io"
+      "title": "Movie History",
+      "thumbnail": "https://XXX.jpg",
+      "description": "This is a web app that allows you to search for movies you want to watch and save it to a wishlist that is saved for your user.",
+      "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, Version Control with Github",
+      "available": true,
+      "url": "https://movie-history-99711.firebaseapp.com",
+      "github": "https://github.com/DrakeMorrison/movie-history"
     },
     {
-        "id": "project2",
-        "title": "Puppy Project",
-        "imageUrl": "https://static.pexels.com/photos/59523/pexels-photo-59523.jpeg",
-        "description": "project on puppies",
-        "githubUrl": "https://github.com/DrakeMorrison/DrakeMorrison.github.io"
+      "title": "Local Weather",
+      "thumbnail": "https://github.com/DrakeMorrison/local-weather/raw/master/screenshots/current-weather.png",
+      "description": "This is a simple weather app that allows a user to save forecasts and indicate their scariness.",
+      "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, Version Control with Github",
+      "available": true,
+      "url": "https://simple-weather-app-11afe.firebaseapp.com/",
+      "github": "https://github.com/DrakeMorrison/local-weather"
     },
     {
-        "id": "project3",
-        "title": "Hedgehog Project",
-        "imageUrl": "https://static.pexels.com/photos/50577/hedgehog-animal-baby-cute-50577.jpeg",
-        "description": "project on hedgehogs",
-        "githubUrl": "https://github.com/DrakeMorrison/DrakeMorrison.github.io"
-    },
-    {
-        "id": "project4",
-        "title": "Bunny Project",
-        "imageUrl": "https://static.pexels.com/photos/372166/pexels-photo-372166.jpeg",
-        "description": "project on bunnies",
-        "githubUrl": "https://github.com/DrakeMorrison/DrakeMorrison.github.io"
-    },
-    {
-        "id": "project5",
-        "title": "Panda Project",
-        "imageUrl": "https://static.pexels.com/photos/148182/pexels-photo-148182.jpeg",
-        "description": "project on pandas",
-        "githubUrl": "https://github.com/DrakeMorrison/DrakeMorrison.github.io"
-    },
-    {
-        "id": "project6",
-        "title": "Kitten Project",
-        "imageUrl": "https://static.pexels.com/photos/271955/pexels-photo-271955.jpeg",
-        "description": "project on kittens",
-        "githubUrl": "https://github.com/DrakeMorrison/DrakeMorrison.github.io"
+      "title": "Ex Tracker",
+      "thumbnail": "https://github.com/DrakeMorrison/exTracker/raw/master/screenshots/home.png",
+      "description": "This is a product and technical description for the project",
+      "technologiesUsed": "jQuery, AJAX and JSON, Task Automation, CSS Animations, Version Control with Github",
+      "available": true,
+      "url": "https://drake-morrison.firebaseapp.com",
+      "github": "https://github.com/DrakeMorrison/exTracker"
     }
   ]
 }
