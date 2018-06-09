@@ -77,6 +77,12 @@
       "title": "Week 15: Firebase",
       "date": "06/01/2018",
       "post": "Persistent Data! Yay! I really liked using firebase this week. It is a service offered by google that, among other things, will work as a simple database for our projects. It was relatively fun and easy to setup, and when you sync it up with your application and get all the promises working, It is really cool. I can't wait to use it more. "
+    },
+    {
+      "id":"blog14",
+      "title": "Week 16: Firebase Authentication",
+      "date": "06/09/2018",
+      "post": "I very much enjoyed adding users and authentication to my firebase app. It was a lot simpler than I thought it was going to be. I also added a way to login via Google, which was fun. There are ways to allow login via, say, FaceBook; but I didn't quite figure that out this week. I need to update my personal site first. There is always more coding to do."
     }
   ],
   "projects": [
