@@ -20,25 +20,51 @@ a:hover {
 * {
   box-sizing: border-box;
 }
-
+/*
 .foreground-image {
   width: 100vw;
   height: auto;
-}
+} */
 
 body {
   /* background-image: url('/images/NH\ 11.jpg'); */
   width: 100%;
   background-size: cover;
   padding-top: 50px;
+  background-image: url('/images/NH\ 11.jpg');
 }
 
-h1 {
-  text-style: bold;
+/* works on fullscreen */
+/* #theName {
   color: white;
-  background-color: black;
-  border-radius: 10px;
+  position: absolute;
+  top: 11em;
+  right: 0px;
+  left: 0px;
   display: inline-block;
+} */
+
+.theName {
+  color: white;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  right: 0px;
+  font-size: 6vmax;
+}
+
+.glyphicon-menu-down {
+  position: absolute;
+  top: 14em;
+  left: 10em;
+  right: 10em;
+  color: white;
+  font-family: 'Glyphicons Halflings';
+}
+
+#blogs-div {
+  background-color: black;
 }
 
 nav a {
