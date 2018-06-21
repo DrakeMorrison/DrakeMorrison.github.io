@@ -44,7 +44,7 @@ body {
   display: inline-block;
 } */
 
-.theName {
+#theName {
   color: white;
   margin: auto;
   position: absolute;
