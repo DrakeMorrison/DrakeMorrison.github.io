@@ -16,20 +16,23 @@ a:hover {
     display: inline-block;
     text-align: center;
 } */
-* {
-  box-sizing: border-box; }
 
+* {
+  box-sizing: border-box;
+}
 /*
 .foreground-image {
   width: 100vw;
   height: auto;
 } */
+
 body {
   /* background-image: url('/images/NH\ 11.jpg'); */
   width: 100%;
   background-size: cover;
   padding-top: 50px;
-  background-image: url("/images/NH 11.jpg"); }
+  background-image: url('/images/NH\ 11.jpg');
+}
 
 /* works on fullscreen */
 /* #theName {
@@ -40,6 +43,7 @@ body {
   left: 0px;
   display: inline-block;
 } */
+
 #theName {
   color: white;
   margin: auto;
@@ -47,7 +51,8 @@ body {
   top: 50%;
   left: 0px;
   right: 0px;
-  font-size: 6vmax; }
+  font-size: 6vmax;
+}
 
 .glyphicon-menu-down {
   position: absolute;
@@ -55,13 +60,17 @@ body {
   left: 10em;
   right: 10em;
   color: white;
-  font-family: 'Glyphicons Halflings'; }
+  font-family: 'Glyphicons Halflings';
+}
 
 #blogs-div {
-  background-color: black; }
+  background-color: black;
+}
 
 nav a {
-  color: #5cb85c !important; }
+  color: 	#5cb85c !important;
+}
 
 nav a:hover {
-  border: 3px solid #5cb85c; }
+  border: 3px solid #5cb85c;
+}
