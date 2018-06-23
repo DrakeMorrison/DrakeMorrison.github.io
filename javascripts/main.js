@@ -5,4 +5,8 @@ const {navEvents,} = require('./events.js');
 (function startApp () {
   retrieveAPIKey();
   navEvents();
+
+  $(document).ready(function () {
+    $('.sidenav').sidenav();
+  });
 })();

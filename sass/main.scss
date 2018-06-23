@@ -1,0 +1,20 @@
+@import './components/front-page';
+@import './components/navbar';
+
+* {
+  box-sizing: border-box;
+}
+
+// Getting rid of scrollbars
+
+ body {
+  position: absolute;
+  width: 100vw;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+ }
+
+ body::-webkit-scrollbar {
+  display: none;
+ }

@@ -1,0 +1,41 @@
+#frontPage {
+  background: url('/images/NH\ 11.jpg');
+  background-size: cover;
+  width: 100%;
+  padding-top: 50px;
+  height: 100vh;
+}
+
+#theName {
+  color: white;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  right: 0px;
+  font-size: 6vmax;
+  font-family: 'Cinzel', serif;
+}
+
+.glyphicon-menu-down {
+  position: absolute;
+  top: 14em;
+  left: 10em;
+  right: 10em;
+  color: white;
+  font-family: 'Glyphicons Halflings';
+}
+
+h3 {
+  font-family: 'IM Fell Great Primer SC', serif;
+}
+
+p {
+  font-family: 'Playfair Display', serif;
+}
+
+// ~~~~~~~~~~~~~~~~~~ extra stuff ~~~~~~~~~~~~~~~
+
+#blogs-div {
+  background-color: black;
+}
