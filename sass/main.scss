@@ -1,85 +1,21 @@
-/* article {
-    width: 100%;
-}
-
-img {
-    width: 100%;
-}
-
-body {
-    background-color: cadetblue;
-}
-
-a:hover {
-    color: red;
-    background-color:black;
-    display: inline-block;
-    text-align: center;
-} */
+@import './components/front-page';
 
 * {
   box-sizing: border-box;
 }
-/*
-.foreground-image {
+
+ body {
+  position: absolute;
   width: 100vw;
-  height: auto;
-} */
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+ }
 
-body {
-  /* background-image: url('/images/NH\ 11.jpg'); */
-  width: 100%;
-  background-size: cover;
-  padding-top: 50px;
-  background-image: url('/images/NH\ 11.jpg');
-}
+ body::-webkit-scrollbar {
+  display: none;
+ }
 
-/* works on fullscreen */
-/* #theName {
-  color: white;
-  position: absolute;
-  top: 11em;
-  right: 0px;
-  left: 0px;
-  display: inline-block;
-} */
-
-#theName {
-  color: white;
-  margin: auto;
-  position: absolute;
-  top: 50%;
-  left: 0px;
-  right: 0px;
-  font-size: 6vmax;
-  font-family: 'Cinzel', serif;
-}
-
-h3 {
-  font-family: 'IM Fell Great Primer SC', serif;
-}
-
-p {
-  font-family: 'Playfair Display', serif;
-}
-
-.glyphicon-menu-down {
-  position: absolute;
-  top: 14em;
-  left: 10em;
-  right: 10em;
-  color: white;
-  font-family: 'Glyphicons Halflings';
-}
-
-#blogs-div {
-  background-color: black;
-}
-
-nav a {
-  color: 	#5cb85c !important;
-}
-
-nav a:hover {
-  border: 3px solid #5cb85c;
+nav {
+  max-width: 100vw;
 }
