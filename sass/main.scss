@@ -1,8 +1,11 @@
 @import './components/front-page';
+@import './components/navbar';
 
 * {
   box-sizing: border-box;
 }
+
+// Getting rid of scrollbars
 
  body {
   position: absolute;
@@ -15,7 +18,3 @@
  body::-webkit-scrollbar {
   display: none;
  }
-
-nav {
-  max-width: 100vw;
-}
