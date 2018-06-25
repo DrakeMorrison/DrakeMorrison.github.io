@@ -28,12 +28,6 @@ h3 {
   font-family: 'IM Fell Great Primer SC', serif;
   text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(255, 255, 255, 0.3); }
 
-p {
-  font-family: 'Playfair Display', serif; }
-
-#blogs-div {
-  background-color: black; }
-
 nav {
   max-width: 100vw; }
 
@@ -48,6 +42,15 @@ nav {
 
 #nav-icon {
   vertical-align: middle; }
+
+#blogs {
+  background-color: black; }
+
+#secondPage {
+  background-color: blue; }
+
+p {
+  font-family: 'Playfair Display', serif; }
 
 * {
   box-sizing: border-box; }
