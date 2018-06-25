@@ -1,5 +1,5 @@
 #frontPage {
-  background: url("/images/NH 11.jpg");
+  background: url("/images/NH 11A.jpg");
   background-size: cover;
   width: 100%;
   padding-top: 50px;
@@ -46,11 +46,9 @@ nav {
 #blogs {
   background-color: black; }
 
-#secondPage {
-  background-color: blue; }
-
 p {
-  font-family: 'Playfair Display', serif; }
+  font-family: 'Playfair Display', serif;
+  color: white; }
 
 * {
   box-sizing: border-box; }
