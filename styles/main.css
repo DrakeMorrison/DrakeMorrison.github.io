@@ -13,7 +13,8 @@
   left: 0px;
   right: 0px;
   font-size: 6vmax;
-  font-family: 'Cinzel', serif; }
+  font-family: 'Cinzel', serif;
+  text-shadow: 6px 6px 6px black; }
 
 .glyphicon-menu-down {
   position: absolute;
@@ -24,7 +25,8 @@
   font-family: 'Glyphicons Halflings'; }
 
 h3 {
-  font-family: 'IM Fell Great Primer SC', serif; }
+  font-family: 'IM Fell Great Primer SC', serif;
+  text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(255, 255, 255, 0.3); }
 
 p {
   font-family: 'Playfair Display', serif; }
