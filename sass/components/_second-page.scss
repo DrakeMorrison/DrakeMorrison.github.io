@@ -1,9 +1,16 @@
+#secondPage {
+  h3 {
+    font-size: 5vmax;
+    margin-top: 0;
+  }
 
-#blogs {
-  background-color: black;
+  p {
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 2vmax;
+    text-align: justify;
+    padding: 10px 0px;
+    margin-bottom: 0;
+  }
 }
 
-p {
-  font-family: 'Playfair Display', serif;
-  color: white;
-}

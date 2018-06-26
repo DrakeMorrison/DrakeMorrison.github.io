@@ -3,16 +3,20 @@
 function createProjectCards (inputArray) {
   let domString = '';
   inputArray.forEach((e) => {
-    domString += '<article>';
-    domString +=    `<img src="${e.thumbnail}" class='img-thumbnail img-responsive'>`;
-    domString +=    `<h2>${e.title}</h2>`;
-    domString +=    `<p>${e.description}</p>`;
-    domString +=    `<p>Technologies Used: ${e.technologiesUsed}</p>`;
-    domString +=    `<a href="${e.github}" target='_blank'>See it in Github</a>`;
-    domString +=    `<a href='${e.url}' target="_blank">Go to Project Page</a>`;
-    domString += `</article>`;
+    domString += `<div class="col s12 l4">`;
+    domString += `<div class='card'>`;
+    domString += `<div class="card-image">`;
+    domString += `<img src="${e.thumbnail}">`;
+    domString += `<a href="${e.url}" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">redo</i></a>`;
+    domString += `</div>`;
+    domString += `<div class="card-content">`;
+    domString += `<span class="card-title">${e.title}</span>`;
+    domString += `<p>${e.description}<a href='${e.github}'>Github Link</a></p>`;
+    domString += `</div>`;
+    domString += `</div>`;
+    domString += `</div>`;
   });
-  writeToDom(domString, '#my-projects');
+  writeToDom(domString, '#projects-div');
 }
 
 function createBlogPosts (data) {

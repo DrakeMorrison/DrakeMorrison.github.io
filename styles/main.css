@@ -3,13 +3,14 @@
   background-size: cover;
   width: 100%;
   padding-top: 50px;
-  height: 100vh; }
+  height: 100vh;
+  box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.5), 0 4px 40px 5px rgba(0, 0, 0, 0.5); }
 
 #theName {
   color: white;
   margin: auto;
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 0px;
   right: 0px;
   font-size: 6vmax;
@@ -43,12 +44,23 @@ nav {
 #nav-icon {
   vertical-align: middle; }
 
-#blogs {
-  background-color: black; }
+#secondPage h3 {
+  font-size: 5vmax;
+  margin-top: 0; }
 
-p {
+#secondPage p {
   font-family: 'Playfair Display', serif;
-  color: white; }
+  color: white;
+  font-size: 2vmax;
+  text-align: justify;
+  padding: 10px 0px;
+  margin-bottom: 0; }
+
+#about img {
+  max-height: 5em; }
+
+#projects ***** p {
+  color: black; }
 
 * {
   box-sizing: border-box; }

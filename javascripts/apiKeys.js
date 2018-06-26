@@ -14,10 +14,13 @@ function getAPIKey () {
 }
 
 function retrieveAPIKey () {
-  getAPIKey().then(function (results) {
-    setConfig(results.firebase);
-    firebase.initializeApp(results.firebase.apiKey);
-  }).catch(console.error.bind(console));
+  return new Promise(function (resolve) {
+    getAPIKey().then(function (results) {
+      setConfig(results.firebase);
+      firebase.initializeApp(results.firebase.apiKey);
+      resolve();
+    }).catch(console.error.bind(console));
+  });
 }
 
 module.exports = {
