@@ -4,13 +4,14 @@
   width: 100%;
   padding-top: 50px;
   height: 100vh;
+  box-shadow: 0 0px 10px 0px rgba(0,0,0,0.5), 0 4px 40px 5px rgba(0,0,0,0.5);
 }
 
 #theName {
   color: white;
   margin: auto;
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 0px;
   right: 0px;
   font-size: 6vmax;

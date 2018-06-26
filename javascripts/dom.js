@@ -12,7 +12,7 @@ function createProjectCards (inputArray) {
     domString +=    `<a href='${e.url}' target="_blank">Go to Project Page</a>`;
     domString += `</article>`;
   });
-  writeToDom(domString, '#my-projects');
+  writeToDom(domString, '#projects-div');
 }
 
 function createBlogPosts (data) {
