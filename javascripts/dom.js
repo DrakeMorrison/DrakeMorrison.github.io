@@ -11,7 +11,10 @@ function createProjectCards (inputArray) {
     domString += `</div>`;
     domString += `<div class="card-content">`;
     domString += `<span class="card-title">${e.title}</span>`;
-    domString += `<p>${e.description}<a href='${e.github}'>Github Link</a></p>`;
+    domString += `<p>${e.description}</p>`;
+    domString += `</div>`;
+    domString += `<div class="card-action">`;
+    domString += `<a href="${e.github}">See it in GitHub</a>`;
     domString += `</div>`;
     domString += `</div>`;
     domString += `</div>`;

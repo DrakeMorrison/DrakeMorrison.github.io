@@ -10,7 +10,7 @@
   color: white;
   margin: auto;
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 0px;
   right: 0px;
   font-size: 6vmax;
@@ -57,9 +57,12 @@ nav {
   margin-bottom: 0; }
 
 #about img {
-  max-height: 5em; }
+  max-height: 25em; }
 
-#projects ***** p {
+#about p {
+  color: black; }
+
+#projects .card-content {
   color: black; }
 
 * {
