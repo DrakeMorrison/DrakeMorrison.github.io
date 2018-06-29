@@ -1,4 +1,4 @@
-@import './components/front-page';
+@import './components/header';
 @import './components/navbar';
 @import './components/second-page';
 @import './components/about-me';
@@ -7,6 +7,12 @@
 
 * {
   box-sizing: border-box;
+}
+
+h3 {
+  font-family: 'IM Fell Great Primer SC', serif;
+  text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
 }
 
 // Getting rid of scrollbars
@@ -22,6 +28,8 @@
  body::-webkit-scrollbar {
   display: none;
  }
+
+  // Making sure the sidenav can be triggered
 
  .sidenav-trigger {
    z-index: 5;

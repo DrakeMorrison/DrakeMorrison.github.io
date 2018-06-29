@@ -1,22 +1,24 @@
-#frontPage {
+header {
   width: 100%;
   height: 100vh;
   box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.5), 0 4px 40px 5px rgba(0, 0, 0, 0.5); }
-
-#theName {
-  color: white;
-  margin: auto;
-  position: absolute;
-  top: 10%;
-  left: 0px;
-  right: 0px;
-  font-size: 6vmax;
-  font-family: 'Cinzel', serif;
-  text-shadow: 6px 6px 6px black; }
-
-h3 {
-  font-family: 'IM Fell Great Primer SC', serif;
-  text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(255, 255, 255, 0.3); }
+  header .parallax-container {
+    height: 100vh; }
+  header h1 {
+    color: white;
+    margin: auto;
+    position: absolute;
+    top: 12%;
+    left: 0px;
+    right: 0px;
+    font-size: 6vmax;
+    font-family: 'Cinzel', serif;
+    text-shadow: 6px 6px 6px black; }
+  header h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0; }
 
 nav {
   max-width: 100vw; }
@@ -64,6 +66,10 @@ footer {
 
 * {
   box-sizing: border-box; }
+
+h3 {
+  font-family: 'IM Fell Great Primer SC', serif;
+  text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(255, 255, 255, 0.3); }
 
 body {
   position: absolute;
