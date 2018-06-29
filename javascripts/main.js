@@ -8,11 +8,8 @@ const {addProjects,} = require('./events.js');
   }).catch(console.error.bind(console));
 
   $(document).ready(function () {
+    $('.parallax').parallax();
     $('.sidenav').sidenav();
   });
-
-  // $(document).ready(function () {
-  //   $('.parallax').parallax();
-  // });
 
 })();

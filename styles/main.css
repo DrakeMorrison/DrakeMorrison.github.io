@@ -1,8 +1,5 @@
 #frontPage {
-  background: url("/images/NH 11A.jpg");
-  background-size: cover;
   width: 100%;
-  padding-top: 50px;
   height: 100vh;
   box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.5), 0 4px 40px 5px rgba(0, 0, 0, 0.5); }
 
@@ -10,20 +7,12 @@
   color: white;
   margin: auto;
   position: absolute;
-  top: 20%;
+  top: 10%;
   left: 0px;
   right: 0px;
   font-size: 6vmax;
   font-family: 'Cinzel', serif;
   text-shadow: 6px 6px 6px black; }
-
-.glyphicon-menu-down {
-  position: absolute;
-  top: 14em;
-  left: 10em;
-  right: 10em;
-  color: white;
-  font-family: 'Glyphicons Halflings'; }
 
 h3 {
   font-family: 'IM Fell Great Primer SC', serif;
@@ -65,6 +54,14 @@ nav {
 #projects .card-content {
   color: black; }
 
+.parallax img {
+  width: 100vw;
+  height: 100vh; }
+
+footer {
+  background-color: black;
+  color: lightsteelblue; }
+
 * {
   box-sizing: border-box; }
 
@@ -77,3 +74,6 @@ body {
 
 body::-webkit-scrollbar {
   display: none; }
+
+.sidenav-trigger {
+  z-index: 5; }

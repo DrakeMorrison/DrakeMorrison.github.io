@@ -3,6 +3,7 @@
 @import './components/second-page';
 @import './components/about-me';
 @import './components/projects';
+@import './components/caboose';
 
 * {
   box-sizing: border-box;
@@ -20,4 +21,8 @@
 
  body::-webkit-scrollbar {
   display: none;
+ }
+
+ .sidenav-trigger {
+   z-index: 5;
  }
