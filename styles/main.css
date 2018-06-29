@@ -30,18 +30,19 @@ nav {
   border-radius: 50%;
   position: fixed;
   top: 1em;
-  left: 1em; }
+  left: 1em;
+  z-index: 5; }
 
 #nav-icon {
   vertical-align: middle; }
 
-#secondPage h3 {
+main h3 {
   font-size: 5vmax;
-  margin-top: 0; }
+  margin-top: 0;
+  color: #ffab00; }
 
-#secondPage p {
+main p {
   font-family: 'Playfair Display', serif;
-  color: white;
   font-size: 2vmax;
   text-align: justify;
   padding: 10px 0px;
@@ -49,9 +50,6 @@ nav {
 
 #about img {
   max-height: 25em; }
-
-#about p {
-  color: black; }
 
 #projects .card-content {
   color: black; }
@@ -62,7 +60,7 @@ nav {
 
 footer {
   background-color: black;
-  color: lightsteelblue; }
+  color: #ffab00; }
 
 * {
   box-sizing: border-box; }
@@ -71,15 +69,16 @@ h3 {
   font-family: 'IM Fell Great Primer SC', serif;
   text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(255, 255, 255, 0.3); }
 
+.row {
+  margin-bottom: 0; }
+
 body {
   position: absolute;
   width: 100vw;
   left: 0;
   overflow-x: hidden;
-  overflow-y: scroll; }
+  overflow-y: scroll;
+  box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.5), 0 4px 40px 5px rgba(0, 0, 0, 0.5); }
 
 body::-webkit-scrollbar {
   display: none; }
-
-.sidenav-trigger {
-  z-index: 5; }

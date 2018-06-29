@@ -3,15 +3,15 @@
 function createProjectCards (inputArray) {
   let domString = '';
   inputArray.forEach((e) => {
-    domString += `<div class="col s12 l4">`;
+    domString += `<div class="col s12 m6 l4">`;
     domString += `<div class='card'>`;
     domString += `<div class="card-image">`;
     domString += `<img src="${e.thumbnail}">`;
-    domString += `<a href="${e.url}" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">redo</i></a>`;
+    domString += `<a href="${e.url}" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">call_made</i></a>`;
     domString += `</div>`;
     domString += `<div class="card-content">`;
-    domString += `<span class="card-title">${e.title}</span>`;
-    domString += `<p>${e.description}</p>`;
+    domString += `<span class="card-title flow-text">${e.title}</span>`;
+    domString += `<p class='flow-text'>${e.description}</p>`;
     domString += `</div>`;
     domString += `<div class="card-action">`;
     domString += `<a href="${e.github}">See it in GitHub</a>`;
