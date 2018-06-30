@@ -1,33 +1,24 @@
-#frontPage {
-  background: url("/images/NH 11A.jpg");
-  background-size: cover;
+header {
   width: 100%;
-  padding-top: 50px;
   height: 100vh;
   box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.5), 0 4px 40px 5px rgba(0, 0, 0, 0.5); }
-
-#theName {
-  color: white;
-  margin: auto;
-  position: absolute;
-  top: 30%;
-  left: 0px;
-  right: 0px;
-  font-size: 6vmax;
-  font-family: 'Cinzel', serif;
-  text-shadow: 6px 6px 6px black; }
-
-.glyphicon-menu-down {
-  position: absolute;
-  top: 14em;
-  left: 10em;
-  right: 10em;
-  color: white;
-  font-family: 'Glyphicons Halflings'; }
-
-h3 {
-  font-family: 'IM Fell Great Primer SC', serif;
-  text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(255, 255, 255, 0.3); }
+  header .parallax-container {
+    height: 100vh; }
+  header h1 {
+    color: white;
+    margin: auto;
+    position: relative;
+    top: -50%;
+    left: 0px;
+    right: 0px;
+    font-size: 6vmax;
+    font-family: 'Cinzel', serif;
+    text-shadow: 6px 6px 6px black; }
+  header h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0; }
 
 nav {
   max-width: 100vw; }
@@ -39,38 +30,59 @@ nav {
   border-radius: 50%;
   position: fixed;
   top: 1em;
-  left: 1em; }
+  left: 1em;
+  z-index: 5; }
 
 #nav-icon {
   vertical-align: middle; }
 
-#secondPage h3 {
+main h3 {
   font-size: 5vmax;
-  margin-top: 0; }
+  margin-top: 0;
+  color: #ffab00; }
 
-#secondPage p {
+main p {
   font-family: 'Playfair Display', serif;
-  color: white;
   font-size: 2vmax;
   text-align: justify;
   padding: 10px 0px;
   margin-bottom: 0; }
 
-#about img {
-  max-height: 5em; }
+main #blogs-div li {
+  background-color: white;
+  font-family: 'Playfair Display', serif; }
 
-#projects ***** p {
+#about img {
+  max-height: 25em; }
+
+#projects .card-content {
   color: black; }
+
+.parallax img {
+  width: 100vw;
+  height: 100vh; }
+
+footer {
+  background-color: black;
+  color: #ffab00; }
 
 * {
   box-sizing: border-box; }
+
+h3 {
+  font-family: 'IM Fell Great Primer SC', serif;
+  text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0px -5px 35px rgba(255, 255, 255, 0.3); }
+
+.row {
+  margin-bottom: 0; }
 
 body {
   position: absolute;
   width: 100vw;
   left: 0;
   overflow-x: hidden;
-  overflow-y: scroll; }
+  overflow-y: scroll;
+  box-shadow: 0 0px 10px 0px rgba(0, 0, 0, 0.5), 0 4px 40px 5px rgba(0, 0, 0, 0.5); }
 
 body::-webkit-scrollbar {
   display: none; }

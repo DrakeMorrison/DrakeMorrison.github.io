@@ -1,11 +1,22 @@
-@import './components/front-page';
+@import './components/header';
 @import './components/navbar';
 @import './components/second-page';
 @import './components/about-me';
 @import './components/projects';
+@import './components/caboose';
 
 * {
   box-sizing: border-box;
+}
+
+h3 {
+  font-family: 'IM Fell Great Primer SC', serif;
+  text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+}
+
+.row {
+  margin-bottom: 0;
 }
 
 // Getting rid of scrollbars
@@ -16,6 +27,7 @@
   left: 0;
   overflow-x: hidden;
   overflow-y: scroll;
+  box-shadow: 0 0px 10px 0px rgba(0,0,0,0.5), 0 4px 40px 5px rgba(0,0,0,0.5);
  }
 
  body::-webkit-scrollbar {

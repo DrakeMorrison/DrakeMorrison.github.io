@@ -13,52 +13,80 @@
   <body>
 
     <ul class="sidenav" id="mobile-demo">
-      <li><a>About</a></li>
-      <li><a>Projects</a></li>
-      <li><a>Contact Me</a></li>
-      <li><a>Blogs</a></li>
+      <li class='sidenav-close'><a href="#about">About</a></li>
+      <li class='sidenav-close' ><a href="#projects">Projects</a></li>
+      <li class='sidenav-close' ><a href="#contact">Contact Me</a></li>
+      <li class='sidenav-close' ><a href='#blogs'>Blogs</a></li>
     </ul>
-
 
     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i id='nav-icon' class="material-icons">menu</i></a>
 
+    <header class='center-align z-depth-5'>
+      <div class="parallax-container">
+        <div class="parallax"><img src="images/NH 11A.jpg"></div>
+      </div>
 
-    <div id='frontPage' class='center-align z-depth-5'>
-      <h1 id='theName'><strong>Drake Morrison</strong></h1>
+      <h1><strong>Drake Morrison</strong></h1>
       <h3>I want to contribute to an adventure</h3>
-    </div>
+    </header>
 
-    <div id='secondPage' class='z-depth-0 col s12'>
+    <main id='secondPage' class='teal z-depth-0 col s12 center-align'>
       <div class='row'>
 
-        <article id='about' class='grey center-align'>
+        <article id='about' class='z-depth-0'>
           <div class='container'>
             <h3>About Me</h3>
-            <img src="" alt="Profile Photo">
-            <p>Hey Guys! I am Drake Morrison, a Software Developer in Nashville, TN.
-            </p>
-          </div>
+            <div class="card horizontal">
+              <div class="card-image">
+                <img src="/images/profile-photo.jpg">
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <p class='flow-text'>Hey, I am Drake Morrison. A Software Developer in Nashville, TN. I like to challenge myself with new problems and I love to learn new technologies.</p>
+                </div>
+              </div>
+            </div> <!-- /card -->
+          </div> <!-- /container -->
         </article>
 
-        <article id='projects' class='teal center-align'>
+        <article id='projects'>
           <div class='container'>
             <h3>Projects</h3>
             <div id='projects-div' class='row'></div>
           </div>
         </article>
 
-        <article id='contact' class='center-align'>
-          <h3>Contact Me</h3>
+        <article id='contact'>
+          <div class='container'>
+            <h3>Contact Me</h3>
+            <p></p>
+          </div>
         </article>
 
-        <article id='blogs' class='center-align'>
-          <h3>Blogs</h3>
+        <article id='blogs'>
+          <div class='container'>
+            <h3>Blogs</h3>
+            <!-- <div id='blogs-div'></div> -->
+            <ul class='collapsible popout' id='blogs-div'></ul>
+          </div>
         </article>
 
-      </div>
+      </div> <!-- /row -->
+    </main> <!-- /#secondPage -->
+
+
+    <div class="parallax-container">
+      <div class="parallax"><img src="images/VT-Cabin.jpg"></div>
     </div>
 
-    <div id='caboose'><img src="" alt="Cabin by a Pond"></div>
+    <footer>
+      <div class="footer-copyright teal">
+        <div class="container center-align">
+          © 2018 Drake Morrison
+        </div>
+      </div>
+    </footer>
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>

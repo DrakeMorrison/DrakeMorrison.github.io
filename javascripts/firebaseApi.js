@@ -25,25 +25,6 @@ function retrieveData (collection) {
   });
 }
 
-// function retrieveProjects () {
-//   const blogs = [];
-//   return new Promise(function (resolve, reject) {
-//     $.ajax(`${firebaseConfig.databaseURL}/projects.json`)
-//       .done(function (allBlogs) {
-//         if (allBlogs !== null) {
-//           Object.keys(allBlogs).forEach(function (key) {
-//             allBlogs[key].id = key;
-//             blogs.push(allBlogs[key]);
-//           });
-//         }
-//         resolve(blogs);
-//       })
-//       .fail(function (error) {
-//         reject(error);
-//       });
-//   });
-// }
-
 module.exports = {
   retrieveData,
   setConfig,
