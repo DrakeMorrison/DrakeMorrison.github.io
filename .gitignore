@@ -4,3 +4,4 @@ dist
 db/apiKeys.json
 .vscode
 build/
+styles/main.css
