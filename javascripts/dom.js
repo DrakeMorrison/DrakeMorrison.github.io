@@ -7,14 +7,14 @@ function createProjectCards (inputArray) {
     domString +=  `<div class='card'>`;
     domString +=    `<div class="card-image">`;
     domString +=      `<img src="${e.thumbnail}">`;
-    domString +=      `<a href="${e.url}" target="_blank" class="btn-floating pulse halfway-fab waves-effect waves-light red"><i class="material-icons">call_made</i></a>`;
+    domString +=      `<a href="${e.url}" target="_blank" class="btn-floating pulse halfway-fab waves-effect waves-light amber accent-4"><i class="material-icons">call_made</i></a>`;
     domString +=    `</div>`;
     domString +=    `<div class="card-content">`;
     domString +=      `<span class="card-title flow-text">${e.title}</span>`;
     domString +=      `<p class='flow-text'>${e.description}</p>`;
     domString +=    `</div>`;
     domString +=    `<div class="card-action">`;
-    domString +=      `<a href="${e.github}">See it in GitHub</a>`;
+    domString +=      `<a href="${e.github}" target="_blank">See it in GitHub</a>`;
     domString +=    `</div>`;
     domString +=  `</div>`;
     domString += `</div>`;
