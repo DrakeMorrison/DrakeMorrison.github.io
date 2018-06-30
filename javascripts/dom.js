@@ -25,20 +25,20 @@ function createProjectCards (inputArray) {
 function createBlogPosts (data) {
   const blogArray = data.reverse();
   let domString = '';
-  let counter = 1;
+  // let counter = 1;
   blogArray.forEach((e, i) => {
-    if (counter === 1) {
-      domString += `<ul class='collapsible popout'>`;
-    }
+    // if (counter === 1) {
+    //   domString += `<ul class='collapsible popout'>`;
+    // }
     domString +=   `<li>`;
     domString +=    `<div class="collapsible-header flow-text">${e.date}: ${e.title}</div>`;
     domString +=    `<div class="collapsible-body"><span class='flow-text'>${e.post}</span></div>`;
     domString +=   `</li>`;
-    if (counter === 5 || i === blogArray.length) {
-      domString += `</ul>`;
-      counter = 0;
-    }
-    counter++;
+    // if (counter === 5 || i === blogArray.length) {
+    //   domString += `</ul>`;
+    //   counter = 0;
+    // }
+    // counter++;
   });
   writeToDom(domString, '#blogs-div');
 }

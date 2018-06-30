@@ -9,7 +9,7 @@ const {addProjects, addBlogs,} = require('./events.js');
   }).catch(console.error.bind(console));
 
   // Materialize Initiation
-  $(document).ready(function () {
+  $(function () {
     $('.parallax').parallax();
     $('.sidenav').sidenav();
     $('.collapsible').collapsible();
