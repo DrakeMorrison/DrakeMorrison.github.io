@@ -14,7 +14,7 @@ function createProjectCards (inputArray) {
     domString +=      `<p class='flow-text'>${e.description}</p>`;
     domString +=    `</div>`;
     domString +=    `<div class="card-action">`;
-    domString +=      `<a href="${e.github}">See it in GitHub</a>`;
+    domString +=      `<a href="${e.github}" target="_blank">See it in GitHub</a>`;
     domString +=    `</div>`;
     domString +=  `</div>`;
     domString += `</div>`;

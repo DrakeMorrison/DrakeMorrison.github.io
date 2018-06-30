@@ -44,6 +44,9 @@ main h3 {
 main .card-title h3 {
   color: black; }
 
+main .horizontal {
+  margin-top: 0; }
+
 main p {
   font-family: 'Playfair Display', serif;
   font-size: 2vmax;
