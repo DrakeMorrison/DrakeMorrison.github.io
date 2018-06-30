@@ -7,7 +7,7 @@ function createProjectCards (inputArray) {
     domString += `<div class='card'>`;
     domString += `<div class="card-image">`;
     domString += `<img src="${e.thumbnail}">`;
-    domString += `<a href="${e.url}" target="_blank" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">call_made</i></a>`;
+    domString += `<a href="${e.url}" target="_blank" class="btn-floating pulse halfway-fab waves-effect waves-light red"><i class="material-icons">call_made</i></a>`;
     domString += `</div>`;
     domString += `<div class="card-content">`;
     domString += `<span class="card-title flow-text">${e.title}</span>`;
@@ -23,15 +23,15 @@ function createProjectCards (inputArray) {
 }
 
 function createBlogPosts (data) {
+  const blogArray = data.reverse();
   let domString = '';
-  data.forEach((e) => {
-    domString += '<article>';
-    domString +=      `<h2>${e.title}</h2>`;
-    domString +=      `<em>${e.date}</em>`;
-    domString +=      `<p>${e.post}</p>`;
-    domString += `</article>`;
+  blogArray.forEach((e) => {
+    domString += `<li>`;
+    domString +=   `<div class="collapsible-header">${e.date}: ${e.title}</div>`;
+    domString +=   `<div class="collapsible-body"><span>${e.post}</span></div>`;
+    domString += `</li>`;
   });
-  writeToDom(domString, '#my-blogs');
+  writeToDom(domString, '#blogs-div');
 }
 
 const writeToDom = (str, id) => $(id).html(str);

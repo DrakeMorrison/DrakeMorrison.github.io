@@ -48,6 +48,9 @@ main p {
   padding: 10px 0px;
   margin-bottom: 0; }
 
+main #blogs-div li {
+  background-color: white; }
+
 #about img {
   max-height: 25em; }
 
