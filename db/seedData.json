@@ -83,6 +83,18 @@
       "title": "Week 16: Firebase Authentication",
       "date": "06/09/2018",
       "post": "I very much enjoyed adding users and authentication to my firebase app. It was a lot simpler than I thought it was going to be. I also added a way to login via Google, which was fun. There are ways to allow login via, say, FaceBook; but I didn't quite figure that out this week. I need to update my personal site first. There is always more coding to do."
+    },
+    {
+      "id":"blog15",
+      "title": "Week 17: SASS",
+      "date": "06/09/2018",
+      "post": "Syntactically Awesome StyleSheets, also known as SASS is a way to organize your CSS files. I like it a lot and am glad that the capability we got with JS there also is in CSS. It is super helpful to do with Task Runners like Grunt as well. This week was pretty good overall."
+    },
+    {
+      "id":"blog16",
+      "title": "Week 18: REACT.JS",
+      "date": "06/09/2018",
+      "post": "This week we got to use a JS Framework called REACT. It took a while to setup and codes a bit differently than I am used to. Once you get React going, though, it is great. I particularly enjoy organizing everything into Components with seperate SCSS and JS files for each one. I have a little bit of homework to do this week and I need to propose a capstone idea this week."
     }
   ],
   "projects": [
