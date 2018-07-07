@@ -87,14 +87,20 @@
     {
       "id":"blog15",
       "title": "Week 17: SASS",
-      "date": "06/09/2018",
+      "date": "06/16/2018",
       "post": "Syntactically Awesome StyleSheets, also known as SASS is a way to organize your CSS files. I like it a lot and am glad that the capability we got with JS there also is in CSS. It is super helpful to do with Task Runners like Grunt as well. This week was pretty good overall."
     },
     {
       "id":"blog16",
       "title": "Week 18: REACT.JS",
-      "date": "06/09/2018",
+      "date": "06/23/2018",
       "post": "This week we got to use a JS Framework called REACT. It took a while to setup and codes a bit differently than I am used to. Once you get React going, though, it is great. I particularly enjoy organizing everything into Components with seperate SCSS and JS files for each one. I have a little bit of homework to do this week and I need to propose a capstone idea this week."
+    },
+    {
+      "id":"blog17",
+      "title": "Week 19: More REACTions",
+      "date": "07/07/2018",
+      "post": "This week I learned more about how REACT works and doing Database request with Firebase in REACT. I will be using REACT for my capstone project which just got approved. I like how organized REACT is, and I find it helps me to plan my project better by breaking up the project into components. REACT is great. "
     }
   ],
   "projects": [
